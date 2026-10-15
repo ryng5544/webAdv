@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid grey;
+}
+
+ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid grey;
+}
+
+ol {
+    background-color: #fffeee;
+    border: 2px solid grey;
+}
+
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid #fffeee;
+padding: 15px;
+}
+tbody tr:nth-child(odd) {
+background-color: #ff33cc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e495e4;
+}
+
+thead {
+    background-color: purple;
+}
+
